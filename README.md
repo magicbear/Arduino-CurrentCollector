@@ -1,3 +1,5 @@
+Using arduino & LM324N & current-voltage transformer to safely collect hurge AC current
+
 ## Using Module
 Current transformer: 50V/1V rms
 
