@@ -17,4 +17,4 @@ Chinese make MAX7219 4-in-one Matrix display
 
 
 ## Diagram
-![Diagram]https://raw.githubusercontent.com/magicbear/Arduino-CurrentCollector/master/sch.png
+![Diagram](https://raw.githubusercontent.com/magicbear/Arduino-CurrentCollector/master/sch.png)
