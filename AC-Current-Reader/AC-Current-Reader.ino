@@ -257,9 +257,9 @@ void loop() {
       p+= sprintf(p, " AC Amps: ");
       p = dtostrf(rms_a1 / OP_A1, 1, 4, p) + 5;
       p+= sprintf(p, "/");
-      p = dtostrf(rms_a2 * 0.707 / OP_A2, 1, 4, p) + 5;
+      p = dtostrf(rms_a2 / OP_A2, 1, 4, p) + 5;
       p+= sprintf(p, "/");
-      p = dtostrf(rms_a3 * 0.707 / OP_A3, 1, 4, p) + 5;
+      p = dtostrf(rms_a3 / OP_A3, 1, 4, p) + 5;
       
       Serial.println(buffer);
 #ifdef CALC_DC_RMS
